@@ -1,4 +1,4 @@
-                  # Django REST API For Authentication Using JWT Token
+# Django Rest API for Authentication USING JWT Token
 
 ### Features
   User Registration: Allow users to create new accounts by providing necessary details like username, email, and password.
