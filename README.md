@@ -1,4 +1,6 @@
-# Features
+                  # Django REST API For Authentication Using JWT Token
+
+### Features
   User Registration: Allow users to create new accounts by providing necessary details like username, email, and password.
   User Login: Enable users to log in using their credentials to access authenticated endpoints.
   User Logout: Provide an endpoint to invalidate user tokens and log them out of the system securely.
@@ -6,7 +8,7 @@
   Customizable: Easily extend the API to add more features like profile management, password reset, email verification, etc.
 
 
-# Authentication
+### Authentication
 This API uses JSON Web Tokens (JWT) for authentication. Upon successful login, the API will return a JWT token that 
 should be included in the Authorization header for protected endpoints. Tokens are valid for a configurable amount of time (e.g., 5 minutes)
 and need to be refreshed after expiration.
