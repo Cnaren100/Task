@@ -12,9 +12,8 @@ should be included in the Authorization header for protected endpoints. Tokens a
 and need to be refreshed after expiration.
 
 
-Prerequisites
-Make sure you have the following installed:
-
+### Prerequisites
+  Make sure you have the following installed:
 Python (>=3.6)
 Django (>=3.2)
 Django Rest Framework (>=3.12)
