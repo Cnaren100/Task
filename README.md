@@ -10,3 +10,12 @@
 This API uses JSON Web Tokens (JWT) for authentication. Upon successful login, the API will return a JWT token that 
 should be included in the Authorization header for protected endpoints. Tokens are valid for a configurable amount of time (e.g., 5 minutes)
 and need to be refreshed after expiration.
+
+
+Prerequisites
+Make sure you have the following installed:
+
+Python (>=3.6)
+Django (>=3.2)
+Django Rest Framework (>=3.12)
+and mentioned as requirement.txt
